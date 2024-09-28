@@ -1,0 +1,21 @@
+Proactive Software Developer with hands-on experience in developing a Text-to-Speech Converter application by using JavaScript and HTML. The project is the implementation of the Web Speech API to allow immediate voice synthesis, hence improving user interaction by incorporating smooth audio.
+
+Event-driven programming was utilized to handle voice selection and playback, making it very responsive and interactive for the users.
+Implemented dynamic dropdown functionality for populating voice options, showcasing strong skills in DOM manipulation and event handling.
+Improved application performance by optimizing the process of voice selection, therefore making it easier and smooth for the user.
+
+The name Speech Synthesis describes the generation of spoken language by artificial means and usually by computer systems. This interface specifies an API allowing computers to transform text into audible speech and enables applications from text-to-speech systems, virtual assistants, to accessibility tools for sight and speech impairments.
+Basic Elements of Speech Synthesis
+SpeechSynthesis Interface:
+The Web Speech API represents the SpeechSynthesis interface and allows the user to control speech synthesis. This is how you get available voices, or start or pause the speech and manage utterances.
+Example
+Available voices will return by calling window.speechSynthesis.getVoices(), and a new utterance may be created using new SpeechSynthesisUtterance().
+Utterances:
+An utterance is an instance of SpeechSynthesisUtterance, which represents a speech request. It contains properties like text, voice, volume, rate, and pitch that allow customization of how the speech is generated.
+For example, here you could set the text to be spoken, along with which voice it should use.
+Voice Selection:
+Voices available to use with speech synthesis differ depending on device and browser. The event onvoiceschanged is fired after the list of voices has been loaded, at which point a developer can do something like populate a dropdown menu so that the user can select from among all the voices. Each voice has attributes such as name, lang, and default that could be leveraged to build in more sophisticated functionality.
+Event Handling:
+The event listener will control the process of speech synthesis. You can listen for the click of a button to trigger the speech synthesis. You will be handling events, such as onstart, onend, and onerror in order to manage the speech lifecycle.
+Prosody and Naturalness:
+One of the challenges in the speech synthesis challenge is to have speech sound as natural as possible. Rhythm, stress, and intonation of speech are all parts of prosody, which is a main category in making synthesized speech sound natural. Advanced systems may use such techniques as machine learning for superior naturalness.

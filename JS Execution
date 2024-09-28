@@ -1,0 +1,17 @@
+There are three execution context:
+1. **Global Execution Context**: This is the topmost execution context. It is the root of
+the execution context tree. It is created when the JavaScript engine starts.
+2. **Function Execution Context**: This is created when a function is called. It is a child
+of the global execution context.
+3. **Eval Execution Context**: This is created when the eval() function is called. It is
+also a child of the global execution context.
+
+this is used to reference the global execution context in node.js whereas window object is the execution context in browser.
+
+JS is single threaded.
+
+Whenever we execute a code, first the global execution environment is created, 
+memory phase creates allocates the memory to the variables containing values undefined then,
+execution phase assigns the values to the variables and if any other function encounters, 
+a new environment is created along with a new excurtion thread to carry out the operations and 
+the cycle keeps on going.

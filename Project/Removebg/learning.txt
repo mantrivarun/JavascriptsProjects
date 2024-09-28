@@ -1,0 +1,8 @@
+Bootstrap: Popular front end framework for building responsive webpages. It provides grids, forms, navigation bars etc making it easy to create mobile friendly, consistent and visually appealing web pages.
+
+offers ready to use component, easy to customize and extend style.
+
+A framework is a pre-built structure that provides a foundation or environment for developing software applications. It includes reusable code, tools, and libraries that simplify common tasks, so developers don't need to build everything from scratch.
+
+Example:
+Django (for web development) is a framework for building web applications in Python. It provides built-in components like user authentication, database management, and URL routing, so developers can focus on building the unique aspects of their website instead of reinventing these features.
